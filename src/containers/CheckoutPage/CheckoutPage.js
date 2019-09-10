@@ -586,6 +586,7 @@ export class CheckoutPageComponent extends Component {
           unitType={config.bookingUnitType}
           transaction={tx}
           booking={txBooking}
+          dateType="date"
         />
       ) : null;
 

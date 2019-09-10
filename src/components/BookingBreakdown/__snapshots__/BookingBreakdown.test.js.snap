@@ -6,28 +6,53 @@ exports[`BookingBreakdown customer transaction data matches snapshot 1`] = `
 >
   <div>
     <span>
+      <div>
+        <div>
+          <div>
+            <span>
+              BookingBreakdown.bookingStart
+            </span>
+          </div>
+          <div>
+            <span>
+              Saturday
+            </span>
+          </div>
+          <div>
+            <span>
+              Jun 10
+            </span>
+          </div>
+        </div>
+        <div>
+          <div>
+            <span>
+              BookingBreakdown.bookingEnd
+            </span>
+          </div>
+          <div>
+            <span>
+              Saturday
+            </span>
+          </div>
+          <div>
+            <span>
+              Jun 10
+            </span>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <hr />
+  <div>
+    <span>
       <span>
         BookingBreakdown.pricePerNight
       </span>
     </span>
     <span>
       10
-    </span>
-  </div>
-  <div>
-    <span>
-      <span>
-        BookingBreakdown.bookingPeriod
-      </span>
-    </span>
-    <span>
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "BookingBreakdown.nightCount",
-          }
-        }
-      />
     </span>
   </div>
   <hr />
@@ -50,28 +75,53 @@ exports[`BookingBreakdown pretransaction data matches snapshot 1`] = `
 >
   <div>
     <span>
+      <div>
+        <div>
+          <div>
+            <span>
+              BookingBreakdown.bookingStart
+            </span>
+          </div>
+          <div>
+            <span>
+              Saturday
+            </span>
+          </div>
+          <div>
+            <span>
+              Jun 10
+            </span>
+          </div>
+        </div>
+        <div>
+          <div>
+            <span>
+              BookingBreakdown.bookingEnd
+            </span>
+          </div>
+          <div>
+            <span>
+              Saturday
+            </span>
+          </div>
+          <div>
+            <span>
+              Jun 10
+            </span>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <hr />
+  <div>
+    <span>
       <span>
         BookingBreakdown.pricePerNight
       </span>
     </span>
     <span>
       10
-    </span>
-  </div>
-  <div>
-    <span>
-      <span>
-        BookingBreakdown.bookingPeriod
-      </span>
-    </span>
-    <span>
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "BookingBreakdown.nightCount",
-          }
-        }
-      />
     </span>
   </div>
   <hr />
@@ -94,28 +144,53 @@ exports[`BookingBreakdown provider canceled transaction data matches snapshot 1`
 >
   <div>
     <span>
+      <div>
+        <div>
+          <div>
+            <span>
+              BookingBreakdown.bookingStart
+            </span>
+          </div>
+          <div>
+            <span>
+              Saturday
+            </span>
+          </div>
+          <div>
+            <span>
+              Jun 10
+            </span>
+          </div>
+        </div>
+        <div>
+          <div>
+            <span>
+              BookingBreakdown.bookingEnd
+            </span>
+          </div>
+          <div>
+            <span>
+              Saturday
+            </span>
+          </div>
+          <div>
+            <span>
+              Jun 10
+            </span>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <hr />
+  <div>
+    <span>
       <span>
         BookingBreakdown.pricePerNight
       </span>
     </span>
     <span>
       10
-    </span>
-  </div>
-  <div>
-    <span>
-      <span>
-        BookingBreakdown.bookingPeriod
-      </span>
-    </span>
-    <span>
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "BookingBreakdown.nightCount",
-          }
-        }
-      />
     </span>
   </div>
   <div>
@@ -183,28 +258,53 @@ exports[`BookingBreakdown provider transaction data matches snapshot 1`] = `
 >
   <div>
     <span>
+      <div>
+        <div>
+          <div>
+            <span>
+              BookingBreakdown.bookingStart
+            </span>
+          </div>
+          <div>
+            <span>
+              Saturday
+            </span>
+          </div>
+          <div>
+            <span>
+              Jun 10
+            </span>
+          </div>
+        </div>
+        <div>
+          <div>
+            <span>
+              BookingBreakdown.bookingEnd
+            </span>
+          </div>
+          <div>
+            <span>
+              Saturday
+            </span>
+          </div>
+          <div>
+            <span>
+              Jun 10
+            </span>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <hr />
+  <div>
+    <span>
       <span>
         BookingBreakdown.pricePerNight
       </span>
     </span>
     <span>
       10
-    </span>
-  </div>
-  <div>
-    <span>
-      <span>
-        BookingBreakdown.bookingPeriod
-      </span>
-    </span>
-    <span>
-      <span
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "BookingBreakdown.nightCount",
-          }
-        }
-      />
     </span>
   </div>
   <div>

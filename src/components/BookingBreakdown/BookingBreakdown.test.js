@@ -42,6 +42,7 @@ describe('BookingBreakdown', () => {
       <BookingBreakdownComponent
         userRole="customer"
         unitType={LINE_ITEM_NIGHT}
+        dateType="date"
         transaction={exampleTransaction({
           payinTotal: new Money(2000, 'USD'),
           payoutTotal: new Money(2000, 'USD'),
@@ -71,6 +72,7 @@ describe('BookingBreakdown', () => {
       <BookingBreakdownComponent
         userRole="customer"
         unitType={LINE_ITEM_NIGHT}
+        dateType="date"
         transaction={exampleTransaction({
           payinTotal: new Money(2000, 'USD'),
           payoutTotal: new Money(2000, 'USD'),
@@ -100,6 +102,7 @@ describe('BookingBreakdown', () => {
       <BookingBreakdownComponent
         userRole="provider"
         unitType={LINE_ITEM_NIGHT}
+        dateType="date"
         transaction={exampleTransaction({
           payinTotal: new Money(2000, 'USD'),
           payoutTotal: new Money(1800, 'USD'),
@@ -135,6 +138,7 @@ describe('BookingBreakdown', () => {
       <BookingBreakdownComponent
         userRole="provider"
         unitType={LINE_ITEM_NIGHT}
+        dateType="date"
         transaction={exampleTransaction({
           lastTransition: TRANSITION_CANCEL,
           payinTotal: new Money(0, 'USD'),

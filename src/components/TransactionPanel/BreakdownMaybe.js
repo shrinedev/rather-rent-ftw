@@ -25,6 +25,7 @@ const BreakdownMaybe = props => {
         unitType={config.bookingUnitType}
         transaction={transaction}
         booking={transaction.booking}
+        dateType="date"
       />
     </div>
   ) : null;
