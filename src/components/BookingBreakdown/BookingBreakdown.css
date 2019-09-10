@@ -116,3 +116,24 @@
     margin-bottom: 22px;
   }
 }
+
+.bookingPeriodSectionRigth {
+  text-align: right;
+}
+.bookingPeriod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dayLabel {
+  @apply --marketplaceTinyFontStyles;
+  color: var(--matterColorAnti);
+  margin-top: 5px;
+  margin-bottom: 11px;
+}
+
+.dayInfo {
+  @apply --marketplaceButtonFontStyles;
+}

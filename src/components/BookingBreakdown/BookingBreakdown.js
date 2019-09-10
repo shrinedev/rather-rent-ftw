@@ -27,7 +27,16 @@ import LineItemUnknownItemsMaybe from './LineItemUnknownItemsMaybe';
 import css from './BookingBreakdown.css';
 
 export const BookingBreakdownComponent = props => {
-  const { rootClassName, className, userRole, unitType, transaction, booking, intl } = props;
+  const {
+    rootClassName,
+    className,
+    userRole,
+    unitType,
+    transaction,
+    booking,
+    intl,
+    dateType,
+  } = props;
 
   const isCustomer = userRole === 'customer';
   const isProvider = userRole === 'provider';
@@ -42,12 +51,12 @@ export const BookingBreakdownComponent = props => {
 
   return (
     <div className={classes}>
-      <LineItemUnitPriceMaybe transaction={transaction} unitType={unitType} intl={intl} />
-      <LineItemBookingPeriod transaction={transaction} booking={booking} unitType={unitType} />
+      <LineItemBookingPeriod booking={booking} unitType={unitType} dateType={dateType} />
+      <hr className={css.totalDivider} />
       <LineItemUnitsMaybe transaction={transaction} unitType={unitType} />
 
       <LineItemUnknownItemsMaybe transaction={transaction} intl={intl} />
-
+      <LineItemUnitPriceMaybe transaction={transaction} unitType={unitType} intl={intl} />
       <LineItemSubTotalMaybe
         transaction={transaction}
         unitType={unitType}
