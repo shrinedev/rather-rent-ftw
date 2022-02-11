@@ -47,7 +47,7 @@ change to "dev" and "dev-sever" commands.
 ```
 
 ```
-"dev-server": "set NODE_ENV=development&& set PORT=4000&& set REACT_APP_CANONICAL_ROOT_URL=http://localhost:4000&&yarn run build&&nodemon --watch server server/index.js"
+"dev-server": "set NODE_ENV=development && set PORT=4000&& set REACT_APP_CANONICAL_ROOT_URL=http://localhost:4000&&yarn run build&&nodemon --watch server server/index.js"
 ```
 
 We strongly recommend installing
