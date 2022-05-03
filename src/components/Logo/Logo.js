@@ -19,7 +19,16 @@ const Logo = props => {
     return <span />;
   }
 
-  return <IconLogo className={mobileClasses} {...rest} />;
+  return (
+    <img
+      width="28"
+      height="25"
+      className={mobileClasses}
+      src={LogoImage}
+      alt={config.siteTitle}
+      {...rest}
+    />
+  );
 };
 
 const { oneOf, string } = PropTypes;
